@@ -44,6 +44,7 @@ function SignedIn() {
 
   return (
     <>
+      <h2>Mand.io</h2>
       <p>Welcome {viewer}!</p>
       <p className="flex gap-4 items-center">
         This is you:
