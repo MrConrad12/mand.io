@@ -63,36 +63,7 @@ function SignedIn() {
           Add a random number
         </Button>
       </p>
-      <p>
-        Numbers:{" "}
-        {numbers?.length === 0
-          ? "Click the button!"
-          : numbers?.join(", ") ?? "..."}
-      </p>
-      <p>
-        Edit{" "}
-        <code className="relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-sm font-semibold">
-          convex/myFunctions.ts
-        </code>{" "}
-        to change your backend
-      </p>
-      <p>
-        Edit{" "}
-        <code className="relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-sm font-semibold">
-          src/App.tsx
-        </code>{" "}
-        to change your frontend
-      </p>
-      <p>
-        Check out{" "}
-        <a
-          className="font-medium text-primary underline underline-offset-4"
-          target="_blank"
-          href="https://docs.convex.dev/home"
-        >
-          Convex docs
-        </a>
-      </p>
+
     </>
   );
 }
